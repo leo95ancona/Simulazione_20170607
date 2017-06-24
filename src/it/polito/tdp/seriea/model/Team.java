@@ -1,8 +1,9 @@
 package it.polito.tdp.seriea.model;
 
-public class Team {
+public class Team implements Comparable<Team>{
 	
 	private String team ;
+	private int punteggio;
 
 	public Team(String team) {
 		super();
@@ -28,7 +29,7 @@ public class Team {
 	 */
 	@Override
 	public String toString() {
-		return team;
+		return team+" "+punteggio;
 	}
 
 	/* (non-Javadoc)
@@ -60,6 +61,27 @@ public class Team {
 		} else if (!team.equals(other.team))
 			return false;
 		return true;
+	}
+
+	public void addPunteggio(int i) {
+		punteggio+=i;
+		
+	}
+	
+	
+
+	public int getPunteggio() {
+		return punteggio;
+	}
+
+	public void setPunteggio(int punteggio) {
+		this.punteggio = punteggio;
+	}
+
+	@Override
+	public int compareTo(Team o) {
+		// TODO Auto-generated method stub
+		return -(this.punteggio-o.punteggio);
 	}
 	
 	
