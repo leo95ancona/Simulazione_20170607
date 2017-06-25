@@ -12,25 +12,28 @@ public class Match {
 	private Team awayTeam ;
 	private int fthg ; // full time home goals
 	private int ftag ; // full time away goals
-	private String ftr ; // full time result (H, A, D)
+	private String ftr ; // full time result (H, A, D=pareggio)
 	
 	/*
-	private String hs; //Home Team Shots
-	private String as; // Away Team Shots
-	private String hst; //Home Team Shots on Target
-	private String ast; // Away Team Shots on Target
-	private String hhw; // Home Team Hit Woodwork
-	private String ahw; //Away Team Hit Woodwork
-	private String hc; //Home Team Corners
-	private String ac; //Away Team Corners
-	private String hf; //Home Team Fouls Committed
-	private String af; //Away Team Fouls Committed
-	private String ho; //Home Team Offsides
-	private String ao; // Away Team Offsides
-	private String hy; //Home Team Yellow Cards
-	private String ay; //Away Team Yellow Cards
-	private String hr; //Home Team Red Cards
-	private String ar; //Away Team Red Cards
+	private int hthg // HalfTime Home Team Goals
+	private int htag // HalfTime Away Team Goals
+	private String htr // Half Time Result (H, A, D=pareggio)
+	private int hs; //Home Team Shots
+	private int as; // Away Team Shots
+	private int hst; //Home Team Shots on Target
+	private int ast; // Away Team Shots on Target
+	private int hhw; // Home Team Hit Woodwork
+	private int ahw; //Away Team Hit Woodwork
+	private int hc; //Home Team Corners
+	private int ac; //Away Team Corners
+	private int hf; //Home Team Fouls Committed
+	private int af; //Away Team Fouls Committed
+	private int ho; //Home Team Offsides
+	private int ao; // Away Team Offsides
+	private int hy; //Home Team Yellow Cards
+	private int ay; //Away Team Yellow Cards
+	private int hr; //Home Team Red Cards
+	private int ar; //Away Team Red Cards
 	
 	// � possibile aggiungere altri campi, se risulteranno necessari
 	*/
