@@ -52,6 +52,7 @@ public class Model {
 		
 		//System.out.println(grafo);
 		
+		dao.getMatch(season, mappaTeam);
 		
 		//aggiungo gli archi
 		for (TeamPair tm : dao.getTeamPair(season)){
